@@ -144,6 +144,5 @@ Bot Brawl 3D is a fast-paced arena battle game where players fight enemies (and 
 
 ## 📦 How to Run
 
-### Option 1 (Recommended for users)
 Run the executable:
 BotBrawl.exe
