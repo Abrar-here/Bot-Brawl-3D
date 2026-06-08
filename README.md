@@ -2,7 +2,7 @@
 
 A real-time 3D multiplayer combat game built using Python and PyOpenGL featuring AI enemies, weapons system, and dynamic arena battles.
 
-👉 **Download & Play:** https://github.com/YOUR_USERNAME/YOUR_REPO/releases
+👉 **Download & Play:** https://github.com/Abrar-here/Bot-Brawl-3D/releases/tag/v1.0
 
 ---
 
