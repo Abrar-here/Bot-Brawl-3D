@@ -1,148 +1,125 @@
 # 🎮 Bot Brawl 3D
 
-Bot Brawl 3D is a Python-based 3D multiplayer combat game built using PyOpenGL. It features dynamic combat mechanics, AI-driven enemies, weapon systems, and a fully interactive arena environment.
+A real-time 3D multiplayer combat game built using Python and PyOpenGL featuring AI enemies, weapons system, and dynamic arena battles.
+
+👉 **Download & Play:** https://github.com/YOUR_USERNAME/YOUR_REPO/releases
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Overview
 
-Bot Brawl 3D is a fast-paced arena battle game where players fight enemies (and each other in multiplayer mode) using different weapons. The game focuses on real-time action, physics-based interactions, and simple but effective 3D rendering using OpenGL primitives.
+Bot Brawl 3D is a fast-paced arena combat game where players fight AI enemies or another player using different weapons. The game focuses on real-time action, physics-based interactions, and lightweight 3D rendering using OpenGL primitives.
 
 ---
 
-## 🛠️ Technologies Used
+## 🎮 Gameplay Features
+
+- 🧍 Two-player local multiplayer mode
+- 🤖 AI-controlled enemy waves
+- 🔫 Weapon system: Sword, Gun, Grenade
+- 💥 Physics-based explosions with area damage
+- 🏗️ Platform-based 3D arena
+- 🎥 Dynamic third-person camera system
+- 🎯 Real-time combat mechanics
+
+---
+
+## 🛠️ Tech Stack
 
 - Python
 - PyOpenGL
-  - OpenGL
-  - GLUT
-  - GLU
-- GLUT (for rendering and input handling)
+- OpenGL / GLUT / GLU
 
 ---
 
 ## 🎯 Game Modes
 
-- **Menu Mode**: Startup screen with game options
-- **Single Player**: Fight waves of AI enemies
-- **Multiplayer**: Two players battle locally
-- **Game Over Screen**: Displays result and score
-
----
-
-## 🧍 Player Mechanics
-
-- Supports **two players**
-- Movement:
-  - Player 1: WASD
-  - Player 2: Arrow keys
-- Jumping:
-  - W / Up Arrow
-- Attacks:
-  - Space / Mouse / Ctrl
-- Weapon system:
-  - Sword (melee attack)
-  - Gun (projectile shooting)
-  - Grenade (explosive AoE)
-
----
-
-## 🤖 Enemy AI
-
-- Random movement with basic targeting behavior
-- Attempts to follow and attack players
-- Platform-aware movement and jumping logic
-- Simple animation (eyes blinking, wing movement)
-
----
-
-## 🔫 Weapons & Projectiles
-
-- Weapons spawn randomly on platforms
-- Players can hold only one weapon at a time
-- Weapon types:
-  - **Sword** → Close-range melee damage
-  - **Gun** → Fast straight-line bullets
-  - **Grenade** → Physics-based projectile with explosion
-
----
-
-## 💥 Explosions
-
-- Triggered by grenades
-- Area-of-effect damage system
-- Visual expansion using transparency effects
-- Affects both players and enemies within radius
-
----
-
-## 🏗️ Arena & Platforms
-
-- Fixed 3D arena layout
-- Multiple platforms with different heights
-- Collision detection for all entities
-- Ground + elevated fighting zones
-
----
-
-## 🎥 Camera System
-
-- Smooth third-person dynamic camera
-- Follows average position of active players
-- Maintains gameplay visibility and balance
-
----
-
-## 🎨 Visuals & UI
-
-- Built using primitive 3D shapes (cubes, spheres, quads)
-- Simple sky-blue background
-- In-game HUD includes:
-  - Health bars
-  - Weapon status
-  - Score & survival time
-  - Control instructions
-- Game Over screen:
-  - Winner display
-  - Restart/Exit options
+- Menu Screen (Start / Options)
+- Single Player (Survive against AI waves)
+- Multiplayer (1v1 local battle)
+- Game Over Screen (Score & Restart)
 
 ---
 
 ## 🎮 Controls
 
-| Action              | Player 1        | Player 2 (Multiplayer) |
-|---------------------|----------------|------------------------|
-| Move Left/Right     | A / D          | Left / Right Arrows    |
-| Jump                | W              | Up Arrow               |
-| Attack              | Space / Mouse  | Down Arrow             |
-| Restart Game        | R              | R                      |
-| Return to Menu      | Esc            | Esc                    |
+| Action | Player 1 | Player 2 |
+|--------|----------|----------|
+| Move | A / D | Left / Right |
+| Jump | W | Up Arrow |
+| Attack | Space / Mouse | Down Arrow |
+| Restart | R | R |
+| Menu | Esc | Esc |
 
 ---
 
-## ⚙️ Game Logic Highlights
+## 🤖 Enemy AI
 
-- All core logic handled inside a central `Game` class
-- Timed spawning of enemies and weapons
-- Sword attack uses angle-based hit detection
-- Grenade explosion uses radial damage calculation
-- OpenGL blending used for transparency effects
-- Smooth physics-based movement system
+- Random movement + targeting behavior
+- Platform-aware navigation
+- Attack when close to players
+- Simple animation (movement + visual effects)
 
 ---
 
-## ⭐ Notable Features
+## 🔫 Weapons System
 
-- Local multiplayer support
-- AI-based enemy behavior
-- Multiple weapon system with pickup mechanics
-- Real-time combat with physics interactions
-- Smooth camera tracking system
-- Visual feedback (damage flash, explosions)
+- Weapons spawn randomly on the map
+- Only one weapon can be held at a time
+- Types:
+  - Sword → melee combat
+  - Gun → fast projectile shooting
+  - Grenade → explosive area damage
 
 ---
 
-## 📦 How to Run
+## 💥 Combat System
 
-Run the executable:
+- Real-time hit detection
+- Grenade explosion radius damage
+- Sword angle-based hit logic
+- Visual feedback (damage + explosions)
+
+---
+
+## 🏗️ Arena
+
+- Multi-platform 3D map
+- Ground + elevated areas
+- Collision-enabled environment
+
+---
+
+## 🎥 Camera System
+
+- Smooth third-person tracking
+- Dynamic center based on players
+- Maintains optimal gameplay view
+
+---
+
+## 📸 Screenshots / Gameplay
+
+> Add gameplay screenshots here
+screenshots/menu.png
+screenshots/singleplayer.png
+screenshots/multiplayer.png
+
+---
+
+## 📦 How to Play
+
+Download the latest release and run:
 BotBrawl.exe
+
+No installation required.
+
+---
+
+## ⭐ Highlights
+
+- Multiplayer combat system
+- AI enemy behavior
+- Physics-based interactions
+- Smooth camera movement
+- Fully playable executable release
