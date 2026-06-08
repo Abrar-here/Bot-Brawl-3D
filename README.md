@@ -100,10 +100,14 @@ Bot Brawl 3D is a fast-paced arena combat game where players fight AI enemies or
 
 ## 📸 Screenshots / Gameplay
 
-> Add gameplay screenshots here
-screenshots/menu.png
-screenshots/singleplayer.png
-screenshots/multiplayer.png
+### Menu Screen
+![Menu](screenshots/menu.png)
+
+### Single Player Mode
+![Single Player](screenshots/singleplayer.png)
+
+### Multiplayer Mode
+![Multiplayer](screenshots/multiplayer.png)
 
 ---
 
